@@ -54,6 +54,7 @@
         android:layout_height="57dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/edittextshape"
+        android:drawableLeft="@drawable/mail"
         android:drawablePadding="15sp"
         android:ems="10"
         android:fontFamily="@font/helvetica"
@@ -70,6 +71,7 @@
         android:layout_height="57dp"
         android:background="@drawable/edittextshape"
 
+        android:drawableLeft="@drawable/lock"
         android:drawablePadding="15sp"
         android:ems="10"
         android:fontFamily="@font/helvetica"

@@ -42,7 +42,7 @@
         android:id="@+id/nextButton"
         android:layout_width="150dp"
         android:layout_height="57dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="64dp"
         android:background="@drawable/black_button"
         android:fontFamily="@font/helveticacompressed5871d14b6903a"
         android:text="@string/get_started"
@@ -51,9 +51,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="@+id/textView4"
         app:layout_constraintHorizontal_bias="0.482"
-        app:layout_constraintStart_toStartOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.544" />
+        app:layout_constraintStart_toStartOf="@+id/textView4" />
 
     <TextView
         android:id="@+id/textView5"
