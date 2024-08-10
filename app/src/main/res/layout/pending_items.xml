@@ -3,25 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_marginTop="25dp"
+    android:elevation="10dp">
 
     <androidx.cardview.widget.CardView
         android:layout_width="350dp"
         android:layout_height="120dp"
         app:cardCornerRadius="22dp"
+        app:cardElevation="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="89dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:elevation="12dp">
 
             <ImageView
                 android:id="@+id/imgmac"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="15dp"
+                android:scaleType="centerCrop"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -31,6 +36,8 @@
                 android:id="@+id/textalot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/helveticaroundedbold5871d05ead8de"
                 android:text="Alotted to: "
                 app:layout_constraintStart_toEndOf="@+id/imgmac"
                 app:layout_constraintTop_toBottomOf="@+id/texttype" />
@@ -39,33 +46,46 @@
                 android:id="@+id/texttype"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/helveticaroundedbold5871d05ead8de"
                 android:text="Vehicle Type:"
                 app:layout_constraintStart_toEndOf="@+id/imgmac"
                 app:layout_constraintTop_toTopOf="@+id/imgmac" />
 
             <TextView
-                android:id="@+id/textvenue"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Venue"
-                app:layout_constraintStart_toEndOf="@+id/imgmac"
-                app:layout_constraintTop_toBottomOf="@+id/textalot" />
-
-            <TextView
                 android:id="@+id/texttime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/helveticaroundedbold5871d05ead8de"
                 android:text="Time"
                 app:layout_constraintStart_toEndOf="@+id/imgmac"
                 app:layout_constraintTop_toBottomOf="@+id/textvenue" />
 
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/textvenue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/helveticaroundedbold5871d05ead8de"
+                android:text="Venue"
+                app:layout_constraintStart_toEndOf="@+id/imgmac"
+                app:layout_constraintTop_toBottomOf="@+id/textalot" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
                 android:layout_marginEnd="40dp"
                 android:layout_marginBottom="20dp"
+                android:background="@drawable/start"
+                android:fontFamily="@font/helveticacompressed5871d14b6903a"
+                android:gravity="center"
                 android:text="Start"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textDirection="locale"
+                android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
