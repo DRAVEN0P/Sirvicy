@@ -52,10 +52,10 @@
                 app:layout_constraintTop_toBottomOf="@+id/textalot" />
 
             <TextView
-                android:id="@+id/textcont"
+                android:id="@+id/texttime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Contact Details"
+                android:text="Time"
                 app:layout_constraintStart_toEndOf="@+id/imgmac"
                 app:layout_constraintTop_toBottomOf="@+id/textvenue" />
 
