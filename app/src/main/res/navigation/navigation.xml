@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/pendingFragment3">
+    <fragment
+        android:id="@+id/pendingFragment3"
+        android:name="com.example.sirvicy.Fragment.PendingFragment"
+        android:label="fragment_pending"
+        tools:layout="@layout/fragment_pending" />
+    <fragment
+        android:id="@+id/completedFragment3"
+        android:name="com.example.sirvicy.Fragment.CompletedFragment"
+        android:label="fragment_completed"
+        tools:layout="@layout/fragment_completed" />
+</navigation>
