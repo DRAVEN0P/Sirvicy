@@ -5,6 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/light_grey"
+
     tools:context=".StartActivity">
 
     <ImageView
@@ -42,7 +44,7 @@
         android:id="@+id/nextButton"
         android:layout_width="150dp"
         android:layout_height="57dp"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="24dp"
         android:background="@drawable/black_button"
         android:fontFamily="@font/helveticacompressed5871d14b6903a"
         android:text="@string/get_started"
@@ -58,7 +60,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
-        android:fontFamily="@font/helveticaroundedbold5871d05ead8de"
+        android:fontFamily="@font/helveticaoblique"
         android:text="Designed by\nbrocode@15"
         android:textAlignment="center"
         android:textSize="14sp"
